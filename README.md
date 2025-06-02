@@ -1,3 +1,3 @@
-ROS Project - Lab 3 TurtleSim
+ROS Project 1: Setting up ROS1 and TurtleSim
 
 
