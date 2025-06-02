@@ -19,7 +19,7 @@ def get_key():
 
 def main():
     if len(sys.argv) < 2:
-        print("Usage: rosrun lab3_turtlesim turtle_controller.py <turtle_name>")
+        print(" rosrun lab3_turtlesim turtle_controller.py ")
         return
 
     turtle_name = sys.argv[1]
