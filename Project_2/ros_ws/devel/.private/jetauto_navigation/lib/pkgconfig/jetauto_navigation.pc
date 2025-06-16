@@ -1,0 +1,8 @@
+prefix=/home/jetauto/jetauto_ws/devel/.private/jetauto_navigation
+
+Name: jetauto_navigation
+Description: Description of jetauto_navigation
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

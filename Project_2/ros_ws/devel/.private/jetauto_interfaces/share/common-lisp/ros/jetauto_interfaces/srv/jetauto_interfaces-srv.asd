@@ -1,0 +1,38 @@
+
+(cl:in-package :asdf)
+
+(defsystem "jetauto_interfaces-srv"
+  :depends-on (:roslisp-msg-protocol :roslisp-utils :geometry_msgs-msg
+               :jetauto_interfaces-msg
+               :std_msgs-msg
+)
+  :components ((:file "_package")
+    (:file "GetPose" :depends-on ("_package_GetPose"))
+    (:file "_package_GetPose" :depends-on ("_package"))
+    (:file "SetCircleROI" :depends-on ("_package_SetCircleROI"))
+    (:file "_package_SetCircleROI" :depends-on ("_package"))
+    (:file "SetColorDetectParam" :depends-on ("_package_SetColorDetectParam"))
+    (:file "_package_SetColorDetectParam" :depends-on ("_package"))
+    (:file "SetColorRGBA" :depends-on ("_package_SetColorRGBA"))
+    (:file "_package_SetColorRGBA" :depends-on ("_package"))
+    (:file "SetFloat64" :depends-on ("_package_SetFloat64"))
+    (:file "_package_SetFloat64" :depends-on ("_package"))
+    (:file "SetFloat64List" :depends-on ("_package_SetFloat64List"))
+    (:file "_package_SetFloat64List" :depends-on ("_package"))
+    (:file "SetInt64" :depends-on ("_package_SetInt64"))
+    (:file "_package_SetInt64" :depends-on ("_package"))
+    (:file "SetJointValue" :depends-on ("_package_SetJointValue"))
+    (:file "_package_SetJointValue" :depends-on ("_package"))
+    (:file "SetLineROI" :depends-on ("_package_SetLineROI"))
+    (:file "_package_SetLineROI" :depends-on ("_package"))
+    (:file "SetPoint" :depends-on ("_package_SetPoint"))
+    (:file "_package_SetPoint" :depends-on ("_package"))
+    (:file "SetPose" :depends-on ("_package_SetPose"))
+    (:file "_package_SetPose" :depends-on ("_package"))
+    (:file "SetPose2D" :depends-on ("_package_SetPose2D"))
+    (:file "_package_SetPose2D" :depends-on ("_package"))
+    (:file "SetString" :depends-on ("_package_SetString"))
+    (:file "_package_SetString" :depends-on ("_package"))
+    (:file "SetStringList" :depends-on ("_package_SetStringList"))
+    (:file "_package_SetStringList" :depends-on ("_package"))
+  ))

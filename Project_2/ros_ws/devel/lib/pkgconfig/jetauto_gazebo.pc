@@ -1,0 +1,8 @@
+prefix=/home/jetauto/jetauto_ws/devel/.private/jetauto_gazebo
+
+Name: jetauto_gazebo
+Description: Description of jetauto_gazebo
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

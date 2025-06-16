@@ -1,0 +1,8 @@
+prefix=/home/jetauto/jetauto_ws/devel/.private/jetauto_description
+
+Name: jetauto_description
+Description: Description of jetauto_description
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

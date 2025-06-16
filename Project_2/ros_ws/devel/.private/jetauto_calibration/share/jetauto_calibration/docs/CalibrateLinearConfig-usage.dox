@@ -1,0 +1,13 @@
+\subsubsection usage Usage
+\verbatim
+<node name="calibrate_linear" pkg="jetauto_calibrate" type="calibrate_linear">
+  <param name="test_distance" type="double" value="1.0" />
+  <param name="speed" type="double" value="0.15" />
+  <param name="tolerance" type="double" value="0.01" />
+  <param name="motor_go_scale_correction" type="double" value="1.0" />
+  <param name="odom_linear_scale_correction" type="double" value="1.0" />
+  <param name="start_test_go" type="bool" value="False" />
+  <param name="start_test_linear" type="bool" value="False" />
+</node>
+\endverbatim
+

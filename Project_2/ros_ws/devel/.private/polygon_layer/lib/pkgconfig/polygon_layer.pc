@@ -1,0 +1,8 @@
+prefix=/home/jetauto/jetauto_ws/devel/.private/polygon_layer
+
+Name: polygon_layer
+Description: Description of polygon_layer
+Version: 0.4.2
+Cflags: -I/home/jetauto/jetauto_ws/src/third_party/frontier_exploration/polygon_layer/include -I/usr/include
+Libs: -L${prefix}/lib -lpolygon_layer
+Requires: costmap_2d geometry_msgs

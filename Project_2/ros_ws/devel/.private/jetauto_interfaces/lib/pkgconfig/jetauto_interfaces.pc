@@ -1,0 +1,8 @@
+prefix=/home/jetauto/jetauto_ws/devel/.private/jetauto_interfaces
+
+Name: jetauto_interfaces
+Description: Description of jetauto_interfaces
+Version: 0.0.0
+Cflags: -I/home/jetauto/jetauto_ws/devel/.private/jetauto_interfaces/include
+Libs: -L${prefix}/lib 
+Requires: message_generation message_runtime std_msgs

@@ -1,0 +1,8 @@
+prefix=/home/jetauto/jetauto_ws/devel/.private/jetauto_sdk
+
+Name: jetauto_sdk
+Description: Description of jetauto_sdk
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: rospy std_msgs

@@ -1,0 +1,8 @@
+prefix=/home/jetauto/jetauto_ws/devel/.private/hiwonder_servo_driver
+
+Name: hiwonder_servo_driver
+Description: Description of hiwonder_servo_driver
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: diagnostic_msgs rospy std_msgs

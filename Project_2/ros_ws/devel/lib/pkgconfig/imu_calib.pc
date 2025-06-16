@@ -1,0 +1,8 @@
+prefix=/home/jetauto/jetauto_ws/devel/.private/imu_calib
+
+Name: imu_calib
+Description: Description of imu_calib
+Version: 0.0.0
+Cflags: -I/home/jetauto/jetauto_ws/src/third_party/imu_calib/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -laccel_calib
+Requires: cmake_modules roscpp sensor_msgs

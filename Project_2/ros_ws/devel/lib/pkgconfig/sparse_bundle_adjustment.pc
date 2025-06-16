@@ -1,0 +1,8 @@
+prefix=/home/jetauto/jetauto_ws/devel/.private/sparse_bundle_adjustment
+
+Name: sparse_bundle_adjustment
+Description: Description of sparse_bundle_adjustment
+Version: 0.4.4
+Cflags: -I/home/jetauto/jetauto_ws/src/third_party/sparse_bundle_adjustment/include
+Libs: -L${prefix}/lib -lsba
+Requires: 

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/jetauto/jetauto_ws/devel/.private/image_view/setup.sh

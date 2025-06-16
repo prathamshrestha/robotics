@@ -1,0 +1,8 @@
+prefix=/home/jetauto/jetauto_ws/devel/.private/virtual_wall
+
+Name: virtual_wall
+Description: Description of virtual_wall
+Version: 0.0.3
+Cflags: -I/home/jetauto/jetauto_ws/devel/.private/virtual_wall/include -I/home/jetauto/jetauto_ws/src/third_party/virtual_wall/include
+Libs: -L${prefix}/lib 
+Requires: costmap_2d message_generation roscpp std_msgs

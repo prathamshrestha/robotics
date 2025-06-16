@@ -1,0 +1,8 @@
+prefix=/home/jetauto/jetauto_ws/devel/.private/jetauto_arm_kinematics
+
+Name: jetauto_arm_kinematics
+Description: Description of jetauto_arm_kinematics
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

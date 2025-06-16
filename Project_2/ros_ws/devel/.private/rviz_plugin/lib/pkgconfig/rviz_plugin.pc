@@ -1,0 +1,8 @@
+prefix=/home/jetauto/jetauto_ws/devel/.private/rviz_plugin
+
+Name: rviz_plugin
+Description: Description of rviz_plugin
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
